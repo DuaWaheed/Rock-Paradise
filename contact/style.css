@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --bodyBg: #232528;
+    --formBg: #222426;
+    --textColor: #fff;
+    --primaryColor: #0076A3;
+    --paraColor: #5e6c79;
+    --paraColor: #74828f;
+
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    margin: 10px;
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #222426;
+    font-size: larger;
+    float: inline-start;
+    font-weight: 400;
+}
+
+header {
+    background-color: #0076A3;
+    height: 50px;
+    width: 100%;
+}
+
+#co {
+    color: aqua;
+}
+
+#abc {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+nav li a:hover {
+    color: white
+}
+
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+}
+
+#check-btn {
+    font-size: 20px;
+    color: white;
+    float: right;
+    flex: 1;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Responsive  */
+@media (max-width: 858px) {
+    #check-btn {
+        display: block;
+        color: #c50529;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 82vh;
+        background-color: #c50529;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+    ul li {
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+
+    ul li a {
+        color: white;
+        font-size: 20px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+body {
+    font-family: 'Roboto Serif', serif;
+    color: var(--textColor);
+    background: var(--bodyBg);
+    padding-bottom: 5em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.head {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--primaryColor);
+    margin-bottom: .5em;
+}
+
+.heading,
+.sub {
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 2.5em;
+}
+
+.sub {
+    text-align: left;
+}
+
+.contactForm {
+    display: grid;
+    gap: 3em;
+}
+
+form {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.para {
+    color: var(--paraColor);
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.para2 {
+    text-align: left;
+}
+
+.input {
+    width: 95%;
+    max-width: 700px;
+    border: none;
+    font-size: .9rem;
+    padding: 1em;
+    outline: none;
+    background-color: var(--formBg);
+    color: var(--paraColor);
+    border-radius: 10px;
+    border: 1px solid rgb(53, 53, 53);
+    margin-bottom: 1em;
+
+}
+
+.input:focus {
+    border: 1px solid var(--primaryColor);
+}
+
+.input::placeholder {
+    text-transform: capitalize;
+}
+
+.submit {
+    background-color: var(--primaryColor);
+    border: none;
+    color: var(--textColor);
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.mapp {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.mapgg {
+    position: absolute;
+    background-color: var(--primaryColor);
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 90%;
+    border-radius: 40px;
+    border-radius: right 10px;
+}
+
+.map {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    text-align: left;
+}
+
+.abc {
+    display: flex;
+    align-items: center;
+}
+
+.contactIcon {
+    font-size: 2rem;
+    color: var(--primaryColor);
+    width: 70px;
+}
+
+@media screen and (min-width:800px) {
+    section {
+        max-width: 1100px;
+    }
+
+    .contactForm {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacts {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+
+/* footer */
+
+
+.footer {
+    background-color: #151616;
+    display: flex;
+    padding: 10PX;
+
+}
+
+.support {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+
+}
+
+.la {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+}
+
+.email {
+    margin: 70px;
+    position: relative;
+    bottom: 40px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:600px) {
+    .footer {
+        padding: 10px;
+    }
+}

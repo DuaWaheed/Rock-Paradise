@@ -1,0 +1,110 @@
+#heading {
+    background-image: url(emerald\ 1.jpg);
+    height: 500px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 80px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: fit-content;
+}
+
+body{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #222426;
+ }
+
+#heading p{
+    font-size: 30px;
+    margin: 0%;
+    color: white;
+}
+
+h1{
+    font-size: 100px;
+}
+
+
+p{
+    font-size: 30px;
+    color: white;
+    
+}
+
+#hh{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30PX;
+    margin-right: 850px;
+    margin-top: 150px;
+    list-style-type: armenian;
+    text-decoration: underline aqua;
+    color: white;   
+    
+}  
+
+#ha{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30PX;
+    margin-right: 400px;
+    margin-top: 120px;
+    list-style-type: armenian;
+    text-decoration: underline aqua;
+    color: white;
+    
+}
+
+#pa{
+    margin-right: 600px;
+    margin-left: 10px;
+    
+ 
+}
+
+
+#dia{
+    margin-left: 940px;
+   position: absolute;
+   margin-top: 450px;
+   
+}
+
+#diam{
+    margin-left: 850px;
+   position: absolute;
+   margin-top: 1100px;
+   
+}
+
+#pb{
+    margin-right: 600px;
+    margin-left: 10px;
+    
+}
+
+
+h3{
+    font-size: 40px;
+    color: white;
+   
+}
+
+#icon{
+    font-size: 70px;
+    margin-right: 1400px;
+    position: absolute;
+    margin-bottom: 2000px;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+#icon:hover{
+    color: aqua;
+}

@@ -1,0 +1,74 @@
+#heading {
+    background-image: url(ruby\ 1.png);
+    height: fit-content;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 80px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: fit-content;
+    
+}
+
+h1{
+    font-size: 100px;
+}
+
+body{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #222426;
+ }
+
+#heading p{
+    font-size: 30px;
+    margin: 0%;
+    color: white;
+}
+
+#hh{
+    color: white;
+    font-size: 30px;
+}
+
+.ruby{
+    justify-content: space-around;
+    justify-content: space-between;
+   text-align: center;
+   margin: 10px;
+   height: 300px;
+   width: 300px;
+   border: 3px solid aqua;
+height: fit-content;
+padding-bottom: 20px;
+background-color: #0076A3;
+   margin-top: 30px;
+   
+}
+
+button{
+    color: aqua;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+#icon{
+    font-size: 70px;
+    margin-right: 1400px;
+    position: absolute;
+    margin-bottom: 2000px;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+#icon:hover{
+    color: aqua;
+}

@@ -1,0 +1,92 @@
+#heading {
+    background-image: url(sapphir\ 3.webp);
+    height: 500px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 80px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: fit-content;
+   
+}
+
+body{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #222426;
+ }
+
+.sap{
+    justify-content: space-around;
+    justify-content: space-between;
+   text-align: center;
+   margin: 10px;
+   height: 300px;
+   width: 300px;
+   border: 3px solid aqua;
+   height: fit-content;
+   padding-bottom: 20px;
+   background-color: #0076A3;
+   margin-top: 30px;
+   
+}
+
+#heading p{
+    font-size: 30px;
+    margin: 0%;
+    color: rgb(0, 0, 0);
+    
+}
+
+#pa{
+    margin-left: 600px;
+    color: white;
+    font-size: 30px;
+ 
+}
+
+#sa{
+    margin-right: 900px;
+    margin-left: 50px;
+   position: absolute;
+   margin-top: 430px;
+   
+}
+
+h3{
+    font-size: 40px;
+    color: white;
+   margin-left: 550px;
+}
+h1{
+    font-size: 100px;
+}
+
+#hh{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-right: 450px;
+    margin-left: 350px;
+}
+
+#icon{
+    font-size: 70px;
+    margin-right: 1400px;
+    position: absolute;
+    margin-bottom: 2000px;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+#icon:hover{
+    color: aqua;
+}

@@ -1,0 +1,102 @@
+body {
+    color: #fff;
+    background-color: #222426;
+    padding: 10px;
+  }
+  
+
+
+
+nav li {
+    list-style: none;
+    float: right;
+    margin: 10px;
+    display: flex;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #222426;
+    font-size: larger;
+    float: inline-start;
+    font-weight: 400;
+  }
+  
+  header {
+    background-color: #0076A3;
+    height: 50px;
+    width: 100%;
+  }
+  
+  nav li a:hover {
+    color: white
+  }
+  
+  #abc {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .uv{
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    border: solid black;
+  }
+  .ji{
+    font-size: larger;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin: 10px;
+    width: 50%;
+  }
+.ji h1{
+    color: #0076A3;
+}
+.ques h1{
+    color: #0076A3;
+}
+.ans h1{
+    color: #0076A3;
+}
+
+ /* footer */
+
+
+.footer {
+    background-color: #151616;
+    display: flex;
+    padding: 10PX;
+  
+  }
+  
+  .support {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+  
+  }
+  
+  .la {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+  }
+  
+  .email {
+    margin: 70px;
+    position: relative;
+    bottom: 40px;
+    list-style-type: none;
+  }
+  
+  @media only screen and (max-width:600px) {
+    .footer {
+      padding: 10px;
+    }
+  } 

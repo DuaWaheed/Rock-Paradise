@@ -1,0 +1,80 @@
+.jwe{
+    justify-content: space-around;
+    justify-content: space-between;
+   text-align: center;
+   margin: 10px;
+   height: 300px;
+   width: 309px;
+   border: 3px solid aqua;
+   height: fit-content;
+   padding-bottom: 20px;
+   background-color: #0076A3;
+   margin-top: 30px;
+  
+}
+
+
+.jwe img{
+    object-fit: cover;
+    
+}
+
+h1{
+    font-size: 100px;
+}
+
+#heading {
+    background-image: url(j\ 2.webp);
+    height: 300px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    animation: rotate 5s ;
+}
+
+
+#heading p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+button{
+    color: aqua;
+    background-color: black;
+    font-size: 20px;
+}
+
+body{display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+justify-content: space-between;
+background-color: #222426;
+}
+
+#icon{
+    font-size: 70px;
+    margin-right: 1300px;
+    position: absolute;
+    margin-bottom: 2000px;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+#icon:hover{
+    color: aqua;
+}
+
+
+
+
+
+  
+  

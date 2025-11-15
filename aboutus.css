@@ -1,0 +1,123 @@
+body {
+    color: #fff;
+    background-color: #222426;
+}
+
+#us {
+    color: #fff;
+    background-color: #0076A3;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.about {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 15px;
+}
+
+#shop {
+    height: 400px;
+    width: 100%;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    margin: 10px;
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #222426;
+    font-size: larger;
+    float: inline-start;
+    font-weight: 400;
+}
+
+header {
+    background-color: #0076A3;
+    height: 50px;
+    width: 100%;
+}
+
+#a1 {
+    color: aqua;
+}
+
+#abc {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+nav li a:hover {
+    color: white
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+
+}
+
+#check-btn {
+    font-size: 20px;
+    color: white;
+    float: right;
+    flex: 1;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+
+/* footer */
+
+
+.footer {
+    background-color: #151616;
+    display: flex;
+    padding: 10PX;
+
+}
+
+.support {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+
+}
+
+.la {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+}
+
+.email {
+    margin: 70px;
+    position: relative;
+    bottom: 40px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:600px) {
+    .footer {
+        padding: 10px;
+    }
+}
+

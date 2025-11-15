@@ -1,0 +1,254 @@
+body {
+    color: #fff;
+    background-color: #222426;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    margin: 10px;
+    display: flex;
+   
+}
+
+nav li a {
+    text-decoration: none;
+    color: #222426;
+    font-size: larger;
+    float: inline-start;
+    font-weight: 400;
+}
+
+header {
+    background-color: #0076A3;
+    height: 50px;
+    width: 100%;
+}
+
+#h {
+    color: aqua;
+}
+
+
+#abc {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+nav li a:hover {
+    color: white
+}
+
+#da {
+    height: 200px;
+    width: 300px;
+}
+
+.duaa {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: fit-content;
+    background-color: #0076A3;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 13px;
+    margin: 2%;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card h1 {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+    color: rgb(18, 79, 104);
+}
+
+.card button {
+   
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold !important;
+    font-size: 15px;
+    border-radius: 5px;
+    background: linear-gradient(110deg, #1d1c8b 40%, #1b64a8 60%);
+}
+
+#rock {
+    color: #0076A3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#dia {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0076A3;
+}
+
+#cry {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0076A3;
+}
+
+.card p {
+    color: white;
+}
+
+.nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#def {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rock {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.rock p {
+    font-size: larger;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin: 10px;
+    width: 50%;
+
+}
+
+.rock img {
+    border: #0076A3 solid;
+}
+
+#well {
+    margin: 20px;
+    color: #0076A3;
+}
+
+@media screen and (max-width: 900px) {
+    /* nav {
+        display: none;
+    }
+    #check, #check-btn{
+        display: block;
+        float: right;
+    } */
+
+    /* .heading {
+        flex-direction: column;
+    } */
+
+    .card button {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+#check-btn {
+    font-size: 20px;
+    color: white;
+    float: right;
+    flex: 1;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Responsive  */
+@media (max-width: 858px) {
+    
+    #check-btn {
+        display: block;
+        color: #000000;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 82vh;
+        background-color: #c50529;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+    ul li {
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+
+    ul li a {
+        color: white;
+        font-size: 20px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+
+
+/* footer */
+
+
+.footer {
+    background-color: #151616;
+    display: flex;
+    padding: 10PX;
+
+}
+
+.support {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+
+}
+
+.la {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+}
+
+.email {
+    margin: 70px;
+    position: relative;
+    bottom: 40px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:600px) {
+    .footer {
+        padding: 10px;
+    }
+}

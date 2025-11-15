@@ -1,0 +1,33 @@
+.footer{
+background-color: #151616;
+display: flex;
+padding: 10PX;
+    
+}
+
+.support{
+margin: 70px;
+position: relative;
+bottom: 60px;
+list-style-type: none;
+}
+
+.la{
+margin: 70px;
+position: relative;
+bottom: 60px;
+list-style-type: none;
+} 
+
+.email{
+margin: 70px;
+position: relative;
+bottom: 40px;
+list-style-type: none;
+}  
+
+@media only screen and (max-width:600px){
+    .footer{
+        padding: 10px;
+    }
+}

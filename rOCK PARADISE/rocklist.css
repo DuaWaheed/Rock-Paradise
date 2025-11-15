@@ -1,0 +1,333 @@
+body {
+    /* justify-content: space-around;
+    /* justify-content: space-between; */
+    /* margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; */ 
+    background-color: #222426;
+
+
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    margin: 10px;
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #222426;
+    font-size: larger;
+    float: inline-start;
+    font-weight: 400;
+}
+
+header {
+    background-color: #0076A3;
+    height: 50px;
+    width: 100%;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+}
+
+#abc {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+#check-btn {
+    font-size: 20px;
+    color: white;
+    float: right;
+    flex: 1;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+#ser {
+    color: aqua;
+}
+
+.swar {
+    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid aqua;
+    height: fit-content;
+    padding-bottom: 20px;
+    background-color: rgb(22, 80, 82);
+    /* background-size: cover; */
+    font-size: 15px;
+    /* display: flex;
+   flex-wrap: wrap; */
+}
+
+#hs {
+    color: white;
+    font-size: 35px;
+}
+
+
+.tiff {
+    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid aqua;
+    height: fit-content;
+    padding-bottom: 20px;
+    background-color: rgb(22, 80, 82);
+    /* background-size: cover; */
+    font-size: 15px;
+}
+
+
+.pan {
+    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid aqua;
+    height: fit-content;
+    padding-bottom: 20px;
+    background-color: rgb(22, 80, 82);
+    /* background-size: cover; */
+    font-size: 15px;
+}
+
+#main {
+
+    justify-content: space-around;
+    justify-content: space-between;
+    overflow: hidden;
+    /* display: flex;
+     flex-wrap: wrap; */
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+#a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+#head {
+    background-image: url(crystal\ gif\ 2.gif);
+    height: 400px;
+    width: 100%;
+    color: rgb(239, 239, 239);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px;
+    background-attachment: fixed;
+    background-size: 80%;
+    background-size: cover;
+    margin: 0;
+
+}
+
+
+
+
+/* @keyframes fadein{
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0.5s; 
+    }
+    
+} */
+
+#s {
+    background-image: url(swarovski.jpg);
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    transition: 3s;
+    /* background-size: cover; */
+    height: fit-content;
+
+}
+
+#s:hover {
+    scale: 1.1;
+    transition: 3s;
+}
+
+#t {
+    background-image: url(tiffany.jpg);
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    transition: 3s;
+}
+
+#t:hover {
+    scale: 1.1;
+    transition: 3s;
+}
+
+#p {
+    background-image: url(pandora\ w.webp);
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    transition: 3s;
+
+}
+
+#p:hover {
+    scale: 1.1;
+    transition: 3s;
+}
+
+#h {
+    font-size: 80px;
+    color: white;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: fit-content;
+        display: flex; */
+        font-size: 30px;
+    }
+
+}
+
+#a:hover {
+    color: rgb(37, 222, 167);
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 15px;
+    color: aqua;
+    background-color: black;
+}
+
+button:hover {
+    color: black;
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 700px) {
+
+    #head,
+    #h {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #head,
+    #h {
+        font-size: 40px;
+    }
+
+}
+
+
+
+/* footer */
+
+
+.footer {
+    background-color: #151616;
+    display: flex;
+    padding: 10PX;
+
+}
+
+.support {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+
+}
+
+.la {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+    list-style-type: none;
+}
+
+.email {
+    margin: 70px;
+    position: relative;
+    bottom: 40px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:600px) {
+    .footer {
+        padding: 10px;
+    }
+}
